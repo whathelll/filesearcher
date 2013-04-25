@@ -1,0 +1,7 @@
+{
+  "name": "filesearcher",
+  "description": "A package using to search for text in files",
+  "author": "William Xu <williamxuyuzhou@gmail.com>",
+  "main": "index.js",
+  "version": "0.1"
+}

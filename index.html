@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>My Bloomberg</title>
+	<script type="text/javascript" src="$MANAGER_WIDGET/Common/OpenSrc/jquery-1.4.2.min.js"></script>
+	
+	<object id="pluginObjectTVMW" border=0 classid="clsid:SAMSUNG-INFOLINK-TVMW" style="width: 0; height: 0; opacity: 0;" /></object>
+	<object id="pluginObjectNNavi" border=0 classid="clsid:SAMSUNG-INFOLINK-NNAVI" style="width: 0; height: 0; opacity: 0;" /></object>
+
+	<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+	<script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/API/Plugin.js'></script>
+	<script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/API/TVKeyValue.js'></script>
+		
+	<script type="text/javascript" language="javascript" src="Main.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body onload="Main.onLoad();">
+	<ul class="regionlist">
+		<li><a href='javascript:void(0);' id='anchorUS' onkeydown='Main.USKeyDown();'>US</a></li>
+		<li><a href='javascript:void(0);' id='anchorEU' onkeydown='Main.EUKeyDown();'>Europe</a></li>
+		<li><a href='javascript:void(0);' id='anchorAS' onkeydown='Main.ASKeyDown();'>Asia</a></li>
+	</ul>
+	<div class="embedVideo">
+	</div>
+	<div id="message">message</div>
+</body>
+</html>
