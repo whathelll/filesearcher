@@ -1,0 +1,23 @@
+.searchFields {
+    padding-bottom: 10px;
+    border-bottom-color: #a0a9c0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: table;
+}
+
+ul li {
+    display: table-row;
+}
+
+li div {
+    display:table-cell;
+    padding-right: 30px;
+}
